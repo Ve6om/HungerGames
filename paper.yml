@@ -58,6 +58,8 @@ timings:
   server-name: Unknown Server
 world-settings:
   default:
+    seed-based-feature-search: true
+    portal-create-radius: 16
     per-player-mob-spawns: false
     max-entity-collisions: 8
     disable-creeper-lingering-effect: false

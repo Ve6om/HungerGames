@@ -40,7 +40,7 @@ arenas:
     - Chernobyl2015:-185:66:-15:224.00842:1.0497822
     - Chernobyl2015:-190:66:-22:242.74304:0.44976202
     - Chernobyl2015:-192:66:-29:257.74097:-0.299951
-    lobbysign: flatroom:352:30:1653
+    lobbysign: SurvivalGames_world:352:30:1653
   Breeze:
     bound:
       world: Breeze2
@@ -82,7 +82,7 @@ arenas:
     - Breeze2:0:67:42:222.74994:-2.4002202
     - Breeze2:-4:67:37:245.39844:-3.3002665
     - Breeze2:-6:67:32:254.39865:-5.550059
-    lobbysign: flatroom:352:29:1653
+    lobbysign: SurvivalGames_world:352:29:1653
   City:
     bound:
       world: mcsg2
@@ -124,7 +124,7 @@ arenas:
     - mcsg2:14:20:-14:44.588867:-4.0480995
     - mcsg2:17:20:-10:62.144165:0.7522032
     - mcsg2:19:20:-5:73.54962:1.6522816
-    lobbysign: flatroom:352:28:1653
+    lobbysign: SurvivalGames_world:352:28:1653
   Lost:
     bound:
       world: TheZone85
@@ -166,4 +166,4 @@ arenas:
     - TheZone85:14:57:18:-228.49188:-2.8480446
     - TheZone85:17:57:14:-240.04578:-2.9980261
     - TheZone85:19:57:8:-257.14508:-1.3479837
-    lobbysign: flatroom:316:29:1655
+    lobbysign: SurvivalGames_world:316:29:1655

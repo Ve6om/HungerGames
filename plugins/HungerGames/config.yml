@@ -20,20 +20,20 @@ settings:
   teleport-at-end: false
   teleport-at-end-time: 30
   max-team-size: 3
-  globalexit: flatroom:335:28:1654:-87.949615:-1.5002285
+  globalexit: SurvivalGames_world:335:28:1654:-87.949615:-1.5002285
 reward:
-  enabled: true
+  enabled: false
   cash: 500
   commands:
   - none
   messages:
   - none
 random-chest:
-  enabled: false
+  enabled: true
   interval: 30
   max-chestcontent: 9
 rollback:
-  allow-block-break: false
+  allow-block-break: true
   blocks-per-second: 500
   protect-during-cooldown: true
   fix-leaves: true
@@ -49,6 +49,7 @@ rollback:
   - WHITE_WOOL
   - STONE_BRICKS
   - GLASS_PANE
+  allow-itemframe-take: false
 world-border:
   enabled: false
   initiate-on-start: true
@@ -57,7 +58,7 @@ world-border:
   final-border-size: 30
   center-on-first-spawn: true
 spectate:
-  enabled: false
+  enabled: true
   death-to-spectate: true
   hide-spectators: true
   fly: true

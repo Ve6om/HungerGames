@@ -1,6 +1,6 @@
 spawns: 
   default: 
-    world: flatroom
+    world: SurvivalGames_world
     x: 334.8781964780579
     y: 28.0
     z: 1654.4881071823586
