@@ -1,5 +1,5 @@
 spawninfo:
-  location: flatroom, 345.128, 32.200, 1654.442
+  location: SurvivalGames_world, 345.128, 32.200, 1654.442
   lines:
   - '&6&oWelcome to &b&oApex Hosting''s'
   - '&a&oSurvival Games Gametype!'
@@ -10,7 +10,7 @@ spawninfo:
   - '&a&oSurvival Games!'
   - '&8&l&m-------'
 arenainfo:
-  location: flatroom, 334.479, 32.200, 1643.837
+  location: SurvivalGames_world, 334.479, 32.200, 1643.837
   lines:
   - '&4&oArena Information'
   - '&8&l&m-------'
@@ -20,7 +20,7 @@ arenainfo:
   - '&7&othem to fight against other players!'
   - '&8&l&m-------'
 createarenas:
-  location: flatroom, 334.540, 32.200, 1663.949
+  location: SurvivalGames_world, 334.540, 32.200, 1663.949
   lines:
   - '&b&oArena Creation'
   - '&8&l&m--------'
@@ -29,15 +29,15 @@ createarenas:
   - '&7&ocreate your own arenas!'
   - '&8&l&m--------'
 addingarena:
-  location: flatroom, 337.965, 33.200, 1671.989
+  location: SurvivalGames_world, 337.965, 33.200, 1671.989
   lines:
   - '&6&lAdding Arenas'
 creatingarenas:
-  location: flatroom, 331.043, 33.200, 1671.980
+  location: SurvivalGames_world, 331.043, 33.200, 1671.980
   lines:
   - '&6&lCreating Arenas'
 explain:
-  location: flatroom, 334.528, 31.200, 1670.300
+  location: SurvivalGames_world, 334.528, 31.200, 1670.300
   lines:
   - '&8&oIn-depth explanation'
   - '&8&oon Apex Hosting website!'
