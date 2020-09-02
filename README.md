@@ -1,5 +1,5 @@
-# SurvivalGames
-![alt text](https://apex-misc.s3.amazonaws.com/Images/Survival_Games_Thumbnail.png)
+# Hunger Games
+![alt text](https://apex-misc.s3.amazonaws.com/Images/Hunger_Games_Thumbnail.png)
 Survival Games has been a super popular game type ever since the original Hunger Games books and movies came out. Minecraft was the perfect platform to emulate these on and the “Survival Games” genre was born. Survival Games takes you and drops you into an arena with other “tributes” and after the match begins the last one standing wins. There is plenty of strategy to this game type, it can be played at a breakneck pace or it can be played slowly and patiently while waiting for other players to fight one another.
 
 https://apexminecrafthosting.com/survival-games-server/
