@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.1]
+
+### Added
+
+### Changed
+- Update Core Protect from version 19.1 to 19.2
+- Update EssentialsX from version 2.18.0 to 2.18.1
+- Update Hunger Games from version 4.13.16 to 4.14.0
+- Update ProtocolLib from version 4.5.1 Build 476 to 4.5.1 Build 478
+- Update TitleManager from version 2.1.5 to 2.3.1
+
 ## [2.0]
 
 ### Added
@@ -33,5 +44,6 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Nothing
 
-[2.0]: https://github.com/apexhosting/SurvivalGames/releases/tag/2.0
-[1.0]: https://github.com/apexhosting/SurvivalGames/releases/tag/1.0
+[2.1]: https://github.com/apexhosting/HungerGames/releases/tag/2.1
+[2.0]: https://github.com/apexhosting/HungerGames/releases/tag/2.0
+[1.0]: https://github.com/apexhosting/HungerGames/releases/tag/1.0

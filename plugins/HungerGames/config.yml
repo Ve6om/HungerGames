@@ -20,7 +20,6 @@ settings:
   teleport-at-end: false
   teleport-at-end-time: 30
   max-team-size: 3
-  globalexit: SurvivalGames_world:335:28:1654:-87.949615:-1.5002285
 reward:
   enabled: false
   cash: 500
