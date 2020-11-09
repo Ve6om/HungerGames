@@ -1,9 +1,23 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
-## [2.1]
+## [2.2]
 
-### Added
+### Changed
+- Added Server Icon
+- Fix issue with leaves not being in the whitelist
+- Added MOTD
+- Add Server List Plus
+- Update to 1.16.4
+- Update Core Protect from 19.2 to 19.3
+- Update Holographic Displays from 2.4.4 to 2.4.5
+- Update Hunger Games from 4.14.0 to 4.15.0
+- Update ProtocolLib from 4.5.1 Build 478 to 4.6.0 Build 482
+- Update World Edit from 7.2.0 Beta 4 to 7.2.0
+- Update World Guard from 7.0.4 Beta 1 to 7.0.4
+- Update Multiverse Core from 4.1.0 to 4.2.2
+
+## [2.1]
 
 ### Changed
 - Update Core Protect from version 19.1 to 19.2
@@ -38,12 +52,10 @@ All notable changes to this project will be documented in this file.
 
 ## [1.0]
 
-### Added
+### Changed
 - Initial commit of pack to Github for version control
 
-### Changed
-- Nothing
-
+[2.2]: https://github.com/apexhosting/HungerGames/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/HungerGames/releases/tag/2.1
 [2.0]: https://github.com/apexhosting/HungerGames/releases/tag/2.0
 [1.0]: https://github.com/apexhosting/HungerGames/releases/tag/1.0

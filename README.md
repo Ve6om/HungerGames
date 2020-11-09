@@ -16,6 +16,7 @@ https://apexminecrafthosting.com/survival-games-server/
 [PermissionsEx](https://github.com/PEXPlugins/PermissionsEx)
 [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
+[Server List Plus](https://www.spigotmc.org/resources/serverlistplus.241/)
 [TitleManager](https://www.spigotmc.org/resources/titlemanager.1049/)
 [Vault](https://www.spigotmc.org/resources/vault.34315/)
 [WorldEdit](https://dev.bukkit.org/projects/worldedit)

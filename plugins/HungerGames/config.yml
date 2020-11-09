@@ -38,6 +38,13 @@ rollback:
   fix-leaves: true
   prevent-trampling: true
   editable-blocks:
+  - LEAVES
+  - OAK_LEAVES
+  - SPRUCE_LEAVES
+  - BIRCH_LEAVES
+  - JUNGLE_LEAVES
+  - ACACIA_LEAVES
+  - DARK_OAK_LEAVES
   - GRASS
   - TALL_GRASS
   - GRASS_BLOCK
