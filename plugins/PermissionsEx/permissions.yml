@@ -58,3 +58,7 @@ users:
     - Admin
     options:
       name: robert_beckley
+  bdc83502-6d75-4c26-a633-729e9ed81aee:
+    permissions: []
+    options:
+      name: AllanDev
