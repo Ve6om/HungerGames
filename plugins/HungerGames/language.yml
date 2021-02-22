@@ -160,3 +160,24 @@ track-new2: '&a&l |&6&l   Swing the stick to track players!                &a&l 
 lb-blank-space: ''
 lb-combined-separator: ' : '
 cmd-exit-set-arena: '&6<arena> Exit Spawn Set:'
+spectator-start-title: You are now spectating!
+team-prefix: '&7[&aTeam-<name>&7]'
+team-suffix: ''
+team-created: '&aCreated team: &b<name>'
+team-already-exists: '&cTeam &b<name> &calready exists.'
+team-already-have: '&cYou have already created a team: &b<name>'
+team-none: '&cYou do not have a team, create one first with command &b''/hg team create
+  <name>'''
+cmd-create-add-spawns: '&6You''re now ready to set some spawns with ''&a/hg addspawn&6'''
+listener-wand-create-arena: '&6You''re now ready to create your arena with ''&a/hg
+  create&6'''
+listener-wand-set-pos-2: '&6Now you need to set position 2!'
+listener-wand-big-enough: '&cAn arena needs to be a cuboid of at least 5x5x5 in size.'
+check-need-more-spawns: '&cYou still need &7<number> &c more spawns!'
+check-broken-debug: '&cYour arena is marked as broken! use &7/hg debug <arena> &cto
+  check for errors!'
+check-broken-debug-2: '&cIf no errors are found, please use &7/hg toggle <arena>&c!'
+check-invalid-lobby: '&cYour LobbyWall is invalid! Please reset them!'
+check-set-lobby: '&6Set lobbywall: &7/hg setlobbywall <arena>'
+check-ready-run: '&aYour HungerGames arena &7<arena>&a is ready to run!'
+lb-missing-player: <none>

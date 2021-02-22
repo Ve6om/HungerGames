@@ -19,7 +19,15 @@ settings:
   min-bonus-chestcontent: 1
   teleport-at-end: false
   teleport-at-end-time: 30
-  max-team-size: 3
+  debug: false
+  bonus-block-types:
+  - TRAPPED_CHEST
+  - BARREL
+  - SHULKER_BOX
+  hide-nametags: true
+  broadcast-join-messages: true
+  broadcast-win-messages: true
+  save-previous-location: true
 reward:
   enabled: false
   cash: 500
@@ -119,3 +127,8 @@ kits:
     - POTION potion:HEAL:60:2 2 name:&bSuper_Duper_Healing
     potion-effects:
     - FIRE_RESISTANCE:2:forever
+team:
+  show-team-nametags: true
+  max-team-size: 3
+  allow-friendly-fire: false
+  can-see-friendly-invisibles: true
