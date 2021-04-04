@@ -4,6 +4,7 @@ groups:
       default: true
       prefix: '&8[&eTribute&8] &7'
     permissions:
+    - scoreboard.default
     - -minecraft.command.me
     - -bukkit.command.help
     - -bukkit.command.plugins
@@ -62,3 +63,8 @@ users:
     permissions: []
     options:
       name: AllanDev
+  f0e7f028-4955-4dc8-8e40-d334ef0bd19a:
+    permissions:
+    - '*'
+    options:
+      name: AllanStrat

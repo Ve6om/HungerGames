@@ -41,3 +41,23 @@ explain:
   lines:
   - '&8&oIn-depth explanation'
   - '&8&oon Apex Hosting website!'
+s1:
+  location: SurvivalGames_world, 350.540, 31.268, 1657.395
+  lines:
+  - '&7Status: %hungergames_status_Lost%'
+s2:
+  location: SurvivalGames_world, 351.380, 31.268, 1655.535
+  lines:
+  - '&7Status: %hungergames_status_Breeze%'
+s3:
+  location: SurvivalGames_world, 351.408, 31.268, 1653.424
+  lines:
+  - '&7Status: %hungergames_status_Chernobyl%'
+s4:
+  location: SurvivalGames_world, 350.724, 31.268, 1651.456
+  lines:
+  - '&7Status: %hungergames_status_City%'
+i1:
+  location: SurvivalGames_world, 320.280, 30.663, 1654.569
+  lines:
+  - '&cRight Click'

@@ -10,7 +10,7 @@ settings:
   spawn-mobs: true
   spawn-mobs-interval: 35
   free-roam: 25
-  bossbar-countdown: true
+  bossbar-countdown: false
   trackingstick-uses: 8
   players-for-trackingstick: 5
   max-chestcontent: 5
