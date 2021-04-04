@@ -237,7 +237,7 @@ worlds:
   SurvivalGames_world_nether:
     ==: MVWorld
     hidden: 'false'
-    alias: ''
+    alias: SurvivalGames_world_nether
     color: WHITE
     style: NORMAL
     pvp: 'true'
@@ -277,7 +277,7 @@ worlds:
     bedRespawn: 'true'
     worldBlacklist: []
     environment: NETHER
-    seed: '-8367791959402634582'
+    seed: '-3398757790990103098'
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'

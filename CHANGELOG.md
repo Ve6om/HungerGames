@@ -1,6 +1,16 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.3.1]
+
+### Changed
+- Replaced the signs with NPCs that display the current arena status
+- Added a Scoreboard into the lobby
+- Added borders for the arenas
+- Added timers for the arenas
+- Added new messages into the HG settings 
+
+
 ## [2.3]
 
 ### Changed
@@ -62,6 +72,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Initial commit of pack to Github for version control
 
+[2.3.1]: https://github.com/apexhosting/HungerGames/releases/tag/2.3.1
 [2.3]: https://github.com/apexhosting/HungerGames/releases/tag/2.3
 [2.2]: https://github.com/apexhosting/HungerGames/releases/tag/2.2
 [2.1]: https://github.com/apexhosting/HungerGames/releases/tag/2.1
