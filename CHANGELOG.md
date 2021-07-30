@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.4]
+
+### Changed
+- Update main and plugin jars to 1.17
+
 ## [2.3.2]
 
 ### Changed
@@ -77,6 +82,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Initial commit of pack to Github for version control
 
+[2.4]: https://github.com/apexhosting/HungerGames/releases/tag/2.4
 [2.3.2]: https://github.com/apexhosting/HungerGames/releases/tag/2.3.2
 [2.3.1]: https://github.com/apexhosting/HungerGames/releases/tag/2.3.1
 [2.3]: https://github.com/apexhosting/HungerGames/releases/tag/2.3
