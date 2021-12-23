@@ -12,6 +12,7 @@
 
 config-version: 12
 settings:
+  log-named-deaths: true
   log-villager-deaths: true
   debug: false
   save-user-cache-on-stop-only: false
@@ -64,6 +65,9 @@ stats:
   forced-stats: {}
 world-settings:
   default:
+    below-zero-generation-in-existing-chunks: true
+    simulation-distance: default
+    thunder-chance: 100000
     seed-endcity: 10387313
     seed-bastion: 30084232
     seed-fortress: 30084232
@@ -83,6 +87,10 @@ world-settings:
     max-entity-collisions: 8
     verbose: true
     growth:
+      twistingvines-modifier: 100
+      weepingvines-modifier: 100
+      cavevines-modifier: 100
+      glowberry-modifier: 100
       beetroot-modifier: 100
       carrot-modifier: 100
       potato-modifier: 100

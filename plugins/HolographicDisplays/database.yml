@@ -1,5 +1,4 @@
 spawninfo:
-  location: SurvivalGames_world, 345.128, 32.200, 1654.442
   lines:
   - '&6&oWelcome to &b&oApex Hosting''s'
   - '&a&oSurvival Games Gametype!'
@@ -9,8 +8,12 @@ spawninfo:
   - '&7&ohow to join in and play'
   - '&a&oSurvival Games!'
   - '&8&l&m-------'
+  position:
+    world: SurvivalGames_world
+    x: 345.128
+    y: 32.2
+    z: 1654.442
 arenainfo:
-  location: SurvivalGames_world, 334.479, 32.200, 1643.837
   lines:
   - '&4&oArena Information'
   - '&8&l&m-------'
@@ -19,8 +22,12 @@ arenainfo:
   - '&7&odifferent arenas and join'
   - '&7&othem to fight against other players!'
   - '&8&l&m-------'
+  position:
+    world: SurvivalGames_world
+    x: 334.479
+    y: 32.2
+    z: 1643.837
 createarenas:
-  location: SurvivalGames_world, 334.540, 32.200, 1663.949
   lines:
   - '&b&oArena Creation'
   - '&8&l&m--------'
@@ -28,36 +35,73 @@ createarenas:
   - '&7&oon how to add or'
   - '&7&ocreate your own arenas!'
   - '&8&l&m--------'
+  position:
+    world: SurvivalGames_world
+    x: 334.54
+    y: 32.2
+    z: 1663.949
 addingarena:
-  location: SurvivalGames_world, 337.965, 33.200, 1671.989
   lines:
   - '&6&lAdding Arenas'
+  position:
+    world: SurvivalGames_world
+    x: 337.965
+    y: 33.2
+    z: 1671.989
 creatingarenas:
-  location: SurvivalGames_world, 331.043, 33.200, 1671.980
   lines:
   - '&6&lCreating Arenas'
+  position:
+    world: SurvivalGames_world
+    x: 331.043
+    y: 33.2
+    z: 1671.98
 explain:
-  location: SurvivalGames_world, 334.528, 31.200, 1670.300
   lines:
   - '&8&oIn-depth explanation'
   - '&8&oon Apex Hosting website!'
+  position:
+    world: SurvivalGames_world
+    x: 334.528
+    y: 31.2
+    z: 1670.3
 s1:
-  location: SurvivalGames_world, 350.540, 31.268, 1657.395
   lines:
   - '&7Status: %hungergames_status_Lost%'
+  position:
+    world: SurvivalGames_world
+    x: 350.54
+    y: 31.268
+    z: 1657.395
 s2:
-  location: SurvivalGames_world, 351.380, 31.268, 1655.535
   lines:
   - '&7Status: %hungergames_status_Breeze%'
+  position:
+    world: SurvivalGames_world
+    x: 351.38
+    y: 31.268
+    z: 1655.535
 s3:
-  location: SurvivalGames_world, 351.408, 31.268, 1653.424
   lines:
   - '&7Status: %hungergames_status_Chernobyl%'
+  position:
+    world: SurvivalGames_world
+    x: 351.408
+    y: 31.268
+    z: 1653.424
 s4:
-  location: SurvivalGames_world, 350.724, 31.268, 1651.456
   lines:
   - '&7Status: %hungergames_status_City%'
+  position:
+    world: SurvivalGames_world
+    x: 350.724
+    y: 31.268
+    z: 1651.456
 i1:
-  location: SurvivalGames_world, 320.280, 30.663, 1654.569
   lines:
   - '&cRight Click'
+  position:
+    world: SurvivalGames_world
+    x: 320.28
+    y: 30.663
+    z: 1654.569
