@@ -38,10 +38,13 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,owner,scoreboardtrait,skintrait,spawned,location,commandtrait,inventory,equipment
+      sneak:
+        sneaking: false
+    traitnames: inventory,spawned,equipment,sneak,type,owner,mounttrait,location,skintrait,commandtrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -82,10 +85,13 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,owner,scoreboardtrait,skintrait,spawned,location,commandtrait,inventory,equipment
+      sneak:
+        sneaking: false
+    traitnames: inventory,spawned,equipment,sneak,type,owner,mounttrait,location,skintrait,commandtrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -126,10 +132,13 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,owner,scoreboardtrait,skintrait,spawned,location,commandtrait,inventory,equipment
+      sneak:
+        sneaking: false
+    traitnames: inventory,spawned,equipment,sneak,type,owner,mounttrait,location,skintrait,commandtrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -170,10 +179,13 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,owner,scoreboardtrait,skintrait,spawned,location,inventory,commandtrait,equipment
+      sneak:
+        sneaking: false
+    traitnames: inventory,spawned,equipment,sneak,type,owner,mounttrait,location,skintrait,commandtrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -205,6 +217,8 @@ npc:
             globalcooldown: 0
             n: -1
             delay: 0
+        experienceCost: -1.0
+        hideErrorMessages: false
       location:
         bodyYaw: 272.2057
         world: SurvivalGames_world
@@ -215,9 +229,10 @@ npc:
         pitch: '-1.2006'
       type: PLAYER
       owner:
-        owner: AllanStrat
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-    traitnames: type,mounttrait,owner,scoreboardtrait,skintrait,spawned,location,inventory,commandtrait,equipment
+      sneak:
+        sneaking: false
+    traitnames: inventory,spawned,equipment,sneak,type,owner,mounttrait,location,skintrait,commandtrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
