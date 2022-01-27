@@ -13,7 +13,7 @@ https://apexminecrafthosting.com/survival-games-server/
 - [Hunger Games](https://www.spigotmc.org/resources/hungergames.65942/)
 - [Nametag Edit](https://www.spigotmc.org/resources/nametagedit.3836/)
 - [Multiverse Core](https://www.spigotmc.org/resources/multiverse-core.390/)
-- [PermissionsEx](https://github.com/PEXPlugins/PermissionsEx)
+- [LuckPerms](https://luckperms.net/)
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 - [Server List Plus](https://www.spigotmc.org/resources/serverlistplus.241/)

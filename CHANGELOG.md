@@ -1,6 +1,9 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [2.6.1]
+- Migrated from PermissionEX to LuckPerms.
+
 ## [2.6]
 
 ### Changed
