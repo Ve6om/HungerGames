@@ -16,3 +16,10 @@ wepif.yml
 whitelist.json
 help.yml
 plugins/Updater/config.yml
+plugins/Essentials/usermap.csv
+plugins/LuckPerms/libs/*
+plugins/LuckPerms/translations/repository/*
+SurvivalGames_world/advancements/*
+SurvivalGames_world/playerdata/*
+SurvivalGames_world/stats/*
+versions/*

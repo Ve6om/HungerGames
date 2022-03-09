@@ -5,15 +5,16 @@ Survival Games has been a super popular game type ever since the original Hunger
 https://apexminecrafthosting.com/survival-games-server/
 
 ## Plugin List
+- [Citizens](https://www.spigotmc.org/resources/citizens.13811/)
+- [CitizensCMD](https://www.spigotmc.org/resources/citizenscmd.30224/)
 - [Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)
 - [Enhanced BalTop](https://www.spigotmc.org/resources/enhanced-baltop.20168/)
 - [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089/)
-- [HeadsPlus](https://www.spigotmc.org/resources/headsplus-1-8-x-1-16-x.40265/)
 - [Holographic Displays](https://dev.bukkit.org/projects/holographic-displays)
 - [Hunger Games](https://www.spigotmc.org/resources/hungergames.65942/)
+- [LuckPerms](https://www.spigotmc.org/resources/luckperms.28140/)
 - [Nametag Edit](https://www.spigotmc.org/resources/nametagedit.3836/)
 - [Multiverse Core](https://www.spigotmc.org/resources/multiverse-core.390/)
-- [LuckPerms](https://luckperms.net/)
 - [PlaceholderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/)
 - [ProtocolLib](https://www.spigotmc.org/resources/protocollib.1997/)
 - [Server List Plus](https://www.spigotmc.org/resources/serverlistplus.241/)
