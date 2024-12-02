@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Updated to Minecraft 1.20.6
 - Updated all plugins to their latest versions.
-- Updated README.md to reflect current plugin list.
+- Updated README.md to reflect current plugin list and look better.
 - Updated MOTD player count from 2022 to 2024.
 - Updated all Papi expansions.
 - Updated LuckPerms data.
