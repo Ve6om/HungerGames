@@ -1,6 +1,30 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [3.0]
+
+# HUNGER GAMES UPDATED TO 1.20.6
+
+### Changed
+- Updated to Minecraft 1.20.6
+- Updated all plugins to their latest versions.
+- Updated README.md to reflect current plugin list.
+- Updated MOTD player count from 2022 to 2024.
+- Updated all Papi expansions.
+- Updated LuckPerms data.
+- Updated worlds using 1.20.6 server to ensure all chunk data is up-to-date.
+- Updated scoreboard to make it more consistent.
+- Updated Citizen NPC's to look at close-by players.
+- Updated holograms text for better readability and optimized placement for improved user experience.
+- Updated the server icon, to be more consistent with the other game types.
+- Added plugin DecentHolograms.
+- Added plugin AnimatedScoreboard.
+- Added plugin MiniMOTD.
+- Removed plugin Holographic Displays; no longer supported, replaced.
+- Removed plugin QuickBoard; no longer supported, replaced.
+- Removed plugin CoreProtect; not needed in this gametype.
+- Removed plugin CitzenCMD; no longer needed.
+
 ## [2.6.1]
 - Migrated from PermissionEX to LuckPerms.
 
@@ -95,6 +119,7 @@ All notable changes to this project will be documented in this file.
 ### Changed
 - Initial commit of pack to Github for version control
 
+[3.0]: https://github.com/apexhosting/HungerGames/releases/tag/3.0
 [2.6]: https://github.com/apexhosting/HungerGames/releases/tag/2.6
 [2.5]: https://github.com/apexhosting/HungerGames/releases/tag/2.5
 [2.4]: https://github.com/apexhosting/HungerGames/releases/tag/2.4

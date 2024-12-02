@@ -10,45 +10,41 @@ npc:
     uuid: 5d2fa4d5-0f69-445f-bd79-149e187a14ff
     traits:
       skintrait:
-        fetchDefaultSkin: true
         signature: HE5fDx95YmUByvPE3u7zVzJsPt53QnRPNL8iqV8KpTOUcEyUZEq+q1Sl/KYkEPA7Ec641UcEWykOMUc9CjpJLPVEAhl4APTH1X2oqfeVbm+vgwAq4U1HaIGEqSuo/4z79MUaCjH56WwKj637tGge0r75ift8cTs9i9ozApMrci16YGNT/9OI8WVHfeirhGCnEByp2IUjkXtOPuN6aHcVWSewRdb4vZmofgyw1vdNqXxn66XkMT6/MbOsFlGrUgf6jSNDKrPo3vVwR2VDxJjZ0itS42UuIo58FVS8StKgJcidIhlPDCTwtud/CZ/oneIK0GlYuWL0R3p2LE0vTd4AZ6Vf0E0HtaKIblvsMH91wvWG7gAOaiTdG1c6Y+6gYN3Y103GNfNHdzv+lD8qtdcGXim4k3rzhuaYHjqGU6eo+FYZm1zQztzvJ4YyeMDXopblQhEf/IS6kS4T3Mfzsuf/BzpFHzDmTiu0ezPHpeWTWINS5CYGtQ/zSxjkQuOAGqBtjUH56riSKFh4R5hpoocfGgHlPIYN6kkwstmKgxd4gVnakQOn8fY/ebmm9J/2am2e/8r5RUOyZy7MrJn9xxwFk1Y/ccAcyRwpl0pizl0UlyLnP1kFUBl4UDo+vr/gPrkbtgWdWA59WToY+2J3Lzv03ueYdLn6pu2kX1YdxjM7WqE=
         skinName: allandev
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4Mzg2MDUwMSwKICAicHJvZmlsZUlkIiA6ICJiZGM4MzUwMjZkNzU0YzI2YTYzMzcyOWU5ZWQ4MWFlZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGxhbkRldiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80YjY1ZDJjN2U0MjM3Njc1MmIyYzkzMDgwNjg2OTEyZTk5YTFmMmZhOTQyY2IxMTM2NTMzZGEzOWEyNTM2OWQ0IgogICAgfQogIH0KfQ==
-        updateSkins: false
       type: PLAYER
       spawned: true
       location:
         bodyYaw: 73.898506
         world: SurvivalGames_world
-        x: '350.679'
-        y: '28.5'
-        z: '1651.471'
-        yaw: '73.8985'
-        pitch: '2.5496'
+        x: 350.679
+        y: 28.5
+        z: 1651.471
+        yaw: 73.8985
+        pitch: 2.5496
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: hg join City
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-      sneak:
-        sneaking: false
-    traitnames: sneak,scoreboardtrait,inventory,mounttrait,commandtrait,owner,skintrait,equipment,spawned,type,location
+      sneak: {}
+    traitnames: equipment,sneak,spawned,mounttrait,commandtrait,skintrait,scoreboardtrait,inventory,location,owner,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '2':
     metadata:
       cached-skin-uuid-name: lordsherman
@@ -57,45 +53,41 @@ npc:
     uuid: 8786d81d-a9d6-4f44-b6a8-078fe2df44e1
     traits:
       skintrait:
-        fetchDefaultSkin: true
         signature: ZoH4fn5t1hq0YtCS20YIkmzC1POk9/5YECNR52Kmqbhqkc5XCABzF6gz16LYloXtPjs3DjMQ70SxPkffvUOoRN+QQojn1/HW8VMgWxYwTrN6b7BveGkwGqxhttZjH+Du6FzmIvz5rSHr+qXGuBPMOdkC6AuNX7u+FgFVkydz6TUA1X3yeiO18nONcFwMx/oTBEDjyBmgDQYFJE5Tdt/+Ibl8ahtOfBR7uNpmCycF3+XZheegLj1AOQN2yiJrQ8Q0lriir6S+1KcYE5J3McBTZYkdKCfxIeurtNiwGdcFEad4I42a75P8+i1eG76vrx+FwJdDxb4r5sNM3C/FOXrf/9hK1hWbyoZB5FBF6DHpoNU6UmvdKU+Typi4BgsUd5BfH4nzFpnjFwqaInPSJJ51BwGEueP87843sOKwSYkdSltv7AwMsJrOYAccHbaaNzP26WRVHbIWI3HDZ4KR3b9BiCu8bTZkAZA84MGp6owuvlpXDH5Z5+mQMRZpgthiBu/MFX7pvlOZe5pB4vLPyiRD6GYpyj9FH/uNYLDX2dPGAjppU8ExOU8guNPv8rsytCjZRi8wx5kR6qE5CxTNK21iGXaiQx3UYnE/A7WofQwhZd9iuttqV0Dn5/UhAheFryEl/9KUsiNYksKezTo1ImiZWjpLaLIfyHHItM8LfKGiGZ8=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4NDQ1MDUzNSwKICAicHJvZmlsZUlkIiA6ICI3ZTQxODk5Mzc0ODI0M2IyYThmNjc0MGQ2YTMwOGNlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMb3JkU2hlcm1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MzlmYTk1YzU0NzNhMzBkMWEwNzM2ZTFiZjQ4NTljZTZjNjlkZWYwZTIyM2M2MDhlYTdmNjQwYzg5ZTk2YWQyIgogICAgfQogIH0KfQ==
-        updateSkins: false
         skinName: lordsherman
       type: PLAYER
       spawned: true
       location:
         bodyYaw: 98.198326
         world: SurvivalGames_world
-        x: '350.4359'
-        y: '28.5'
-        z: '1657.4367'
-        yaw: '98.1983'
-        pitch: '-0.6004'
+        x: 350.4359
+        y: 28.5
+        z: 1657.4367
+        yaw: 98.1983
+        pitch: -0.6004
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: hg join Lost
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-      sneak:
-        sneaking: false
-    traitnames: sneak,scoreboardtrait,inventory,mounttrait,commandtrait,owner,skintrait,equipment,spawned,type,location
+      sneak: {}
+    traitnames: equipment,sneak,spawned,mounttrait,commandtrait,skintrait,scoreboardtrait,inventory,location,owner,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '1':
     metadata:
       cached-skin-uuid-name: cowtails
@@ -104,45 +96,41 @@ npc:
     uuid: 24ffdafb-ac0e-4bed-bcc1-ce6cbfccef50
     traits:
       skintrait:
-        fetchDefaultSkin: true
         signature: ZR6H0PztbZDSUj5Y7xy7Dv2x2bV2iZD4cxpdOaI1tXgoDlrMpTzUxupC9r32o0ujAO3/mv8FKTmb5C/f2Pxs+w6oRiIwm+K6Rrvn1TxLVnXZPXZn/n7FaghGYC3MnG+PKiffzE/q+TaSEZ5YOpGD4wS7OM/2nOVDIm29eU/hAjpYTs6Oii8Lo8jNqpjkbrbYnr5TKS365XuUQ8DwtqzocyiXgcnV0+yJ0vN0eAa/rcnWx+mYAPPgjtCzqtxMSW8ppiyvod3Ys/graZqsToZxMYj1/EBLD1XyyMLnsNQw/8MD0IrTyPN6JKCGiVHz5YF5zDdDApiEBTSfgYkL8oT+FfvqysgRIhGkc0I/QZdos/H1NC5r/8TE+0RQz9qTJ/vCyKkWrmEgM1nL6FvHWyneuuR4qbFabbRtFktBSxXMFvz4kqjjEIIwZC47NJ5IGWrcduygixjrX6fQVt0eeoohrcHyW4NBj22jPYp6aZOEKZoHoG93O/J7V2OkKw4Srjj3aVqmxvYKqsCPhbQEhyTq0S1RPhq+y13K3fXVupPVpUOgB5oQV1nW7s9aJOZXvROFVkujmwbFaZ6NyDGMwuiK4zZmblKZeU4+uW+jDAW+UEyo12Ig4sUw6GwRoahjZGXH0D0bDeVne+Gt9HgV092AP83ACPXXlZMStJJv7ajpN0c=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4NDYyMjYxNCwKICAicHJvZmlsZUlkIiA6ICJkOWE3M2M2ODVkN2M0ODI2YmMyZmNlOGFhNmEyYWZmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJjb3d0YWlscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85YjU3ZGMzMDI4OTU2NGYxZmQ5NzdmYzc0YzM0OTk5N2NmNThmMmU5NThiMzhjNDk5MzU3NTQ2MWEzOTlkYWRkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=
-        updateSkins: false
         skinName: cowtails
       type: PLAYER
       spawned: true
       location:
         bodyYaw: 96.999344
         world: SurvivalGames_world
-        x: '351.3547'
-        y: '28.5'
-        z: '1655.4936'
-        yaw: '96.9993'
-        pitch: '-2.5505'
+        x: 351.3547
+        y: 28.5
+        z: 1655.4936
+        yaw: 96.9993
+        pitch: -2.5505
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: hg join Breeze
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-      sneak:
-        sneaking: false
-    traitnames: sneak,inventory,scoreboardtrait,mounttrait,commandtrait,owner,skintrait,equipment,spawned,type,location
+      sneak: {}
+    traitnames: equipment,sneak,spawned,mounttrait,commandtrait,skintrait,scoreboardtrait,inventory,location,owner,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '0':
     metadata:
       cached-skin-uuid-name: chernobyl
@@ -151,45 +139,41 @@ npc:
     uuid: 827812d6-a9f9-48ff-aae9-3145fcd0c8c8
     traits:
       skintrait:
-        fetchDefaultSkin: true
         signature: Ii3V65OOFk7FpKiDpnEGKOz67YKCLE3Xx4MJOLtvuyrAqV0h6X3ECOld34NLHIJ02bpswSaouE78TxsdoAhg8xbKpGFTF6SrVPmF0Ni2B8Aa09Ii2fvz5eI0HCRTlPshh+dmN4QRPXLwq/C7S9iDon/qPOfXClvHhjVQH1wx9AVoIJcxOFfqJzkNCBtKYbbbIoi1C3HM/Hx7sAWOyqT4XUvMbFzf8XB5p3hmFGPp0UKGN9tzAO1cpwN4UFegCwc4yJGyLr1cMkNUXfvKnlAQjO6Px1SqFh39bEzTTt7kH0UGCG3knLDOYoSILWWg4KlWt8tfgQ7uS0iEHQf23oaoUX9QSg+eMdv42S95pH0ZVlyxHDWT1PYr66izeI4UnHwZYS0hgy05KU1z2+bRCb0sUo38AyIgNCHOv/rdE/HeiC5YU9Ur6tf9MPE2BMusqX4z8hJczByVsXSuXKPqHorxTCxmAu2hNMicXG6UuXd7SVLzluPfpkiZWGbB3pfioPWpPXIQrvCZOkg4xJ8fewhEhQk2qSsaX7lbhh0hwrHTyhd8bh0+KG3TMswlThlF3q1aQqpjhISgg95M4jK7DR2v783GLSETzcvvV27CwsFEJoc9sZYwWCokBiaaMMQrn9L6eu4VmEdopTm92U6+vzpO+68qzdJyxUjKD3WaHIhgRcM=
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4Mzc2MjUwMywKICAicHJvZmlsZUlkIiA6ICI5ZGZmN2RiNGIzZmY0MmIzYmMzYjI0ZmRlMGY0MWVlYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDaGVybm9ieWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ1OWU1ODBkM2IxNGJjNDc4NGE3MThlNGNiYmM5NTU4MmMwNGY4MTFmZDFhZmM4OTliZTZiOTdhZDc5YzQzNCIKICAgIH0KICB9Cn0=
-        updateSkins: false
         skinName: chernobyl
       type: PLAYER
       spawned: true
       location:
         bodyYaw: 89.64881
         world: SurvivalGames_world
-        x: '351.4334'
-        y: '28.5'
-        z: '1653.5301'
-        yaw: '89.6488'
-        pitch: '-8.8503'
+        x: 351.4334
+        y: 28.5
+        z: 1653.5301
+        yaw: 89.6488
+        pitch: -8.8503
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: hg join Chernobyl
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-      sneak:
-        sneaking: false
-    traitnames: sneak,inventory,scoreboardtrait,mounttrait,commandtrait,skintrait,owner,equipment,spawned,type,location
+      sneak: {}
+    traitnames: equipment,sneak,spawned,mounttrait,commandtrait,skintrait,scoreboardtrait,inventory,location,owner,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
   '5':
     metadata:
       cached-skin-uuid-name: aaron1998ish
@@ -199,41 +183,37 @@ npc:
     traits:
       spawned: true
       skintrait:
-        fetchDefaultSkin: true
         signature: nH0AHQ0spC1K6tb17RDu6UneoGOjkthRJ4UgvmbRt2vk9n8Vrr+ugFgHxCsdlkLwPCnszLQeR/i83uCLm0/SaXotyafrKYHWioABa3Os5zf0BbfHTC8IcGLlMKznmUGsOjm7Yq1ttLxB9r8YPyO9Gm67uSSQ+D/Y3CuwLkGwYudhYv0b4L3HrWBLFKEEtiUfUfMwwgLEBNzMPo5hvsuoO76pnZ6g61GCxG0hrYJ/iziR137AW6XDLyVQPRsuWNVK6s2TDIbn+2rDVF/r5QZOQIr/bYK4VFx/YGflUQLPOylD8vRZxji8QpRMRZuNTyUFqHeozIPmx+HOMv5gXXc+qxwseUKvHBh9ebGTXbeuUaHXq/DdNohDIEGKqsX0cJvz+P3Nak3H56DDvWbTbm5zDEziddVSgCwQvYjCez2cg25CWew89WpwZJaz/JsUr412rzQSc46HLQkqOYSG+TaZUwsI6Q83wZZVOKv16udcUOOcGYz5HfAaRfGQ3RN35HxZsmF6gH055kLexrt5XP3tDwXxD1vRLytKLE8FeALmLZSwyta94l7xG8bagmbKeJ5T7h2TGC6D06wuYas6fa47f2AyTINv/oaUn7Ek60Fbc6RJ5SE5oMrq8vbfSb3leojb05VByLML2d/KOT2Vm/QvKlLCcEMjhVaK45tWBkBTX6w=
         skinName: aaron1998ish
         textureRaw: ewogICJ0aW1lc3RhbXAiIDogMTYxNzQ4OTM0NjkxOCwKICAicHJvZmlsZUlkIiA6ICI5Y2Q0MTk4NDk4MTc0YjZjYThlN2ZlNGQzM2QxZTZjYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJhYXJvbjE5OThpc2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWU3YzNkNWJjODQ2NzNiZWY1Nzk3ODQ4MDE5NWE0YmMzNWMxOWMxYWMxMGY5ZTJkMWQ4NWE5YzhkMzZhYzNiMiIKICAgIH0KICB9Cn0=
-        updateSkins: false
       commandtrait:
-        cost: -1.0
-        executionMode: LINEAR
-        experienceCost: -1.0
-        hideErrorMessages: false
         commands:
           '0':
             command: warp info
             hand: RIGHT
             player: true
+            npc: false
             op: true
             cooldown: 0
             globalcooldown: 0
             n: -1
             delay: 0
+            cost: -1.0
+            experienceCost: -1
       location:
         bodyYaw: 272.2057
         world: SurvivalGames_world
-        x: '320.262'
-        y: '28.0'
-        z: '1654.5772'
-        yaw: '-87.7943'
-        pitch: '-1.2006'
+        x: 320.262
+        y: 28.0
+        z: 1654.5772
+        yaw: -87.7943
+        pitch: -1.2006
       type: PLAYER
       owner:
         uuid: f0e7f028-4955-4dc8-8e40-d334ef0bd19a
-      sneak:
-        sneaking: false
-    traitnames: sneak,inventory,scoreboardtrait,mounttrait,commandtrait,skintrait,owner,equipment,spawned,type,location
+      sneak: {}
+    traitnames: equipment,sneak,spawned,mounttrait,commandtrait,skintrait,scoreboardtrait,inventory,location,owner,type
     navigator:
-      speedmodifier: '1.0'
+      speedmodifier: 1.0
       avoidwater: false
-      usedefaultstuckaction: true
+      usedefaultstuckaction: false
