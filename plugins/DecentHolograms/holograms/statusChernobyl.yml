@@ -1,0 +1,12 @@
+location: SurvivalGames_world:351.408:31.268:1653.424
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&7Status: %hungergames_status_Chernobyl%'
+    height: 0.3
+  actions: {}

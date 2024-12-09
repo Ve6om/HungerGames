@@ -1,0 +1,20 @@
+location: SurvivalGames_world:334.54:32.2:1671.949
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&6&oCreating Arenas'
+    height: 0.3
+  - content: '&8&l&m                                      &r'
+    height: 0.3
+  - content: '&f&oIn-depth explanation'
+    height: 0.3
+  - content: '&f&oon Apex Hosting website!'
+    height: 0.3
+  - content: '&8&l&m                                      &r'
+    height: 0.3
+  actions: {}

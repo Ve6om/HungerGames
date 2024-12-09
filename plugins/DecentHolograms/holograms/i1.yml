@@ -1,0 +1,12 @@
+location: SurvivalGames_world:320.28:30.663:1654.569
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&cRight Click'
+    height: 0.3
+  actions: {}
